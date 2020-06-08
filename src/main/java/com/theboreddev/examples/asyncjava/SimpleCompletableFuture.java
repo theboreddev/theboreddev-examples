@@ -1,8 +1,8 @@
-package com.theboreddev.exercises.asyncjava;
+package com.theboreddev.examples.asyncjava;
 
 import java.util.concurrent.CompletableFuture;
 
-public class SimpleExample {
+public class SimpleCompletableFuture {
 
     public static void main(String[] args) {
         CompletableFuture<String> completableFuture = new CompletableFuture<>();

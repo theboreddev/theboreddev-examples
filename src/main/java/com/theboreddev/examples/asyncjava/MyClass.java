@@ -1,4 +1,4 @@
-package com.theboreddev.exercises.asyncjava;
+package com.theboreddev.examples.asyncjava;
 
 public class MyClass {
     private MyAppState myAppState;

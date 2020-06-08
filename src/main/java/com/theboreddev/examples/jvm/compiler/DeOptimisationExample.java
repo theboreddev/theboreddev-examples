@@ -1,18 +1,18 @@
-package com.theboreddev.exercises.jvm.compiler;
+package com.theboreddev.examples.jvm.compiler;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class DeoptimisationExample {
+public class DeOptimisationExample {
 
     public static void main(String[] args) {
 
         LogPrinter logPrinter;
 
-        for (int i = 0; i < 100000; i++) {
-            if (i < 40000) {
+        for (int i = 0; i < 1000000; i++) {
+            if (i < 700000) {
                 logPrinter = new ConsoleLogPrinter();
             } else {
                 logPrinter = new FileLogPrinter();
@@ -29,7 +29,7 @@ public class DeoptimisationExample {
 
         @Override
         public void printLog(String log) {
-            System.out.println(log);
+            System.out.print("");
         }
     }
 

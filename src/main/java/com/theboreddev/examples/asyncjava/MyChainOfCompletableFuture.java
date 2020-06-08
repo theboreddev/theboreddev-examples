@@ -1,11 +1,11 @@
-package com.theboreddev.exercises.asyncjava;
+package com.theboreddev.examples.asyncjava;
 
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 
-public class MyExample {
+public class MyChainOfCompletableFuture {
 
 
     public static void main(String[] args) throws InterruptedException {
